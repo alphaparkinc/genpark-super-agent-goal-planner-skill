@@ -1,0 +1,27 @@
+{
+  "name": "genpark-super-agent-goal-planner-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Multi-step goal decomposer and subtask priority planner.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "planning",
+    "goals",
+    "subtasks"
+  ],
+  "inputs": {
+    "high_level_goal": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "subtask_plan": {
+      "type": "array"
+    },
+    "estimated_steps": {
+      "type": "integer"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
